@@ -1,11 +1,12 @@
 
 import './App.css';
-import { Menu } from './Menu';
+
+import { View } from './components/View';
 
 function App() {
   return (
     <div className="App">
-      <Menu />
+      <View/>
     </div>
   );
 }
